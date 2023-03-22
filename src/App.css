@@ -1,0 +1,9 @@
+.Spotify{
+    display:flex;
+}
+
+.Content{
+    width: calc(100% - 15rem);
+    background: rgb(200,197,255);
+    background: linear-gradient(320deg, rgba(200,197,255,1) 0%, rgb(36, 36, 36) 0%, rgba(27,28,23,1) 100%);
+}

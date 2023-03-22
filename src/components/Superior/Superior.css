@@ -1,0 +1,93 @@
+.Superior{
+    width:100%;
+    height:5em;
+    padding: 1em;
+    background-color: rgb(17, 17, 17);
+
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:center;
+    color:white;
+    
+}
+
+.Superior-col{
+
+}
+
+.Arrows{
+    width:1.5em;
+    height: 1.5em;
+    display:flex;
+    color:white;
+}
+
+.Superior-svg{
+    margin: 0 2em;
+    background-color: rgb(23, 23, 23);
+    border-radius:50%;
+    
+    padding: .2em;
+
+}
+
+.Right{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Superior-ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5em;
+}
+
+.Premium{
+
+}
+
+.Premium::after{
+    content: '';
+    display:block;
+    width: 2px;
+    height: 2rem;
+    background-color: white;
+    margin: 0 1em;
+}
+
+.Session{
+    color:lightgrey;
+    transition: all .5s ease;
+    transform: scale(1);
+}
+
+
+
+.Session-li:first-child:hover{
+    color:white;
+    transform:scale(1.05);
+}
+
+
+.Session-li:last-child{
+    border:2px solid white;
+    border-radius: 20% / 50%;
+    padding: 1em;
+    background-color: white;
+    color:black;
+    
+}
+
+.Session-li:last-child:hover{
+   transform:scale(1.05);
+   font-weight:600;
+}
+
+.Session-a{
+    
+}

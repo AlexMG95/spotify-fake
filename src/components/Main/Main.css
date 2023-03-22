@@ -1,0 +1,56 @@
+.Main{
+    color:white;
+}
+
+.Carrusel{
+    padding:1em;
+}
+
+.Carrusel-h2{
+    margin: 0 0 1em;
+    font-weight:600;
+    font-size:1.3em;
+}
+
+.Carrusel-grid{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:1rem;
+}
+
+.Playlist{
+    padding:1em;
+    background:rgb(20, 20, 20);
+    box-shadow: 0 0 1em rgba(0,0,0,.2);
+    border-radius: 5%;
+}
+
+.Playlist-mask{
+    position:relative;
+}
+.Playlist-img{
+    min-height: .5em;
+    border-radius: 3%;
+    box-shadow: 0 0 1em rgba(0,0,0,.2);
+}
+
+.Playlist-play{
+    width:2em;
+    height:2em;
+    background-color: green;
+
+    position: absolute;
+    bottom: 1em;
+    right:1em;
+    border-radius:50%;
+}
+
+.Playlist-h2{
+    font-weight: 600;
+   
+    
+}
+
+.Playlist-p{
+    color:lightgrey;
+}
