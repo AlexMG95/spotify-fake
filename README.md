@@ -1,6 +1,6 @@
 # Spotify Copycat
 
-(https://img.shields.io/static/v1?label=&message=React&color=blue&logo=react&logoColor=white&style=for-the-badge)
+[![React](https://img.shields.io/static/v1?label=&message=React&color=blue&logo=react&logoColor=white&style=for-the-badge)]
 
 Spotify Copycat made with ReactJS
 
